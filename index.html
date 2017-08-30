@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>WebChat</title>
+</head>
+<body>
+
+<h1>WebChat</h1>
+
+<script type='text/javascript'>
+  (function(m, ei, q, i, a, j, s) {
+    m[i] = m[i] || function() {
+      (m[i].a = m[i].a || []).push(arguments)
+    };
+    j = ei.createElement(q),
+      s = ei.getElementsByTagName(q)[0];
+    j.async = true;
+    j.charset = 'UTF-8';
+    j.src = 'https://static.meiqia.com/dist/meiqia.js?_=t';
+    s.parentNode.insertBefore(j, s);
+  })(window, document, 'script', '_MEIQIA');
+  //アカウントID
+  _MEIQIA('entId', 71241);
+  _MEIQIA('metadata', {
+    address: "東京", //住所
+    age: "25", // 年龄
+    comment: "コメント", //コメント 
+    email: "test@test.com", // メールアドレス
+    gender: "男", // 性別
+    name: "山田太郎", // 名前
+    qq: "123456789", // QQ
+    tel: "090-1234-1234", // 電話番号
+    weibo: "Test", // WeiBo
+    weixin: "Test",// WeChat
+    // カスタマイズフィールド
+    customer_id: "123"
+  });
+</script>
+</body>
+</html>
